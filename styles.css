@@ -46,8 +46,8 @@ body {
 /* main *********************/
 
 main {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8.75%;
+  margin-right: 8.75%;
 }
 
 .main-nav {
@@ -74,14 +74,14 @@ main {
 /* home **********************/
 
 .articleFloatLeft {
-  width: 45%;
+  width: 46.5%;
   float: left;
-  margin: 30px 2.5%;
+  margin: 30px 0;
 }
 .articleFloatRight {
-  width: 45%;
+  width: 46.5%;
   float: right;
-  margin: 30px 2.5%;
+  margin: 30px 0;
 }
 
 
