@@ -3,8 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: minmax(250px, auto);
-  grid-auto-rows: minmax(100px, auto); }
+  grid-template-columns: minmax(400px, auto);
+  grid-auto-rows: minmax(50px, auto); }
 
 header {
   display: grid;
@@ -34,5 +34,16 @@ header {
 .contact button {
   width: 30%;
   margin: 0 auto; }
+
+.mission h2 {
+  display: inline-block; }
+
+.flower-size {
+  width: 2rem;
+  height: 2rem; }
+
+.profile-sz {
+  width: 4em;
+  height: 4em; }
 
 /*# sourceMappingURL=styles.css.map */
