@@ -11,14 +11,21 @@ main {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: $color-accent;
 }
 
-
-
-.contact {
+// call to action -------------- /
+.contact-one {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid $color-primary;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 1em;
+  }
   p {
-    font-size: .7em;
+    font-size: .9em;
   }
   button {
     width: 30%;
@@ -26,10 +33,29 @@ main {
   }
 }
 
+.tagline {
+  text-align: center;
+  h2 {
+    font-size: 1em;
+  }
+}
+
+// home -----------/
+
 .mission {
+  background-color: tomato;
   h2 {
     display: inline-block;
   }
+}
+
+.accent-color {
+  color: tomato;
+}
+
+.img-title-combo {
+  display: flex;
+  align-items: center;
 }
 
 .flower-size {
