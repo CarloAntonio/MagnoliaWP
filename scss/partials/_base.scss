@@ -1,4 +1,48 @@
 
+ // Main Layout
+.main-container {
+  // display: grid;
+  // grid-template-columns: minmax(400px, auto);
+  // grid-auto-rows: minmax(50px, auto);
+}
+
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: tomato;
+}
+
+// header
+header {
+  margin: 0;
+}
+
+.main-nav {
+  background-color: $color-primary;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1em;
+  }
+  a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+  }
+  a:hover {
+    color: $color-primary;
+    background-color: white;
+    text-decoration: none;
+  }
+
+}
+
 .brand-div {
   margin: 10px auto;
   img {
