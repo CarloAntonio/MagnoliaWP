@@ -1,16 +1,10 @@
-main {
-  max-width: 1200px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: tomato; }
-
 header {
   margin: 0; }
 
 .main-nav {
   background-color: #327875;
   padding: 0;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   text-align: center; }
@@ -28,12 +22,24 @@ header {
     text-decoration: none; }
 
 .brand-div {
-  margin: 10px auto; }
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f37fee;
+  margin: 10px 20px 20px; }
   .brand-div img {
-    width: 30px;
-    height: 30px; }
+    width: 50px;
+    height: 50px; }
   .brand-div span {
-    font-size: .8em; }
+    font-size: 1em; }
+
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f37fee; }
 
 .contact p {
   font-size: .7em; }
