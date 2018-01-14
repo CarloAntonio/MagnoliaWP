@@ -74,9 +74,9 @@ main {
 // team -------------/
 
 .team {
-  margin: 40px 0;
-  padding: 20px 0;
-  border-top: 2px solid $color-primary;
+  margin: 20px 0;
+  padding: 20px 0 40px;
+  border-bottom: 2px solid $color-primary;
 }
 
 .img-title-combo {
@@ -87,4 +87,15 @@ main {
   h4 {
     margin-bottom: 0;
   }
+}
+
+#contact .contact-one {
+  border-bottom: none;
+}
+
+// footer -----------/
+
+.body-footer {
+  background-color: $color-primary;
+  color: white;
 }
