@@ -18,9 +18,9 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
   border-bottom: 2px solid $color-primary;
-  margin-bottom: 20px;
+  border-top: 2px solid $color-primary;
   h2 {
     font-size: 1em;
   }
@@ -33,12 +33,16 @@ main {
   }
 }
 
+// tagline ------------/
 .tagline {
   text-align: center;
+  margin-top: 20px;
   h2 {
     font-size: 1em;
+    margin-bottom: 20px; 
   }
 }
+
 
 // home -----------/
 
@@ -66,4 +70,16 @@ main {
 .profile-sz {
   width: 4em;
   height: 4em;
+}
+
+// team -------------/
+
+.img-title-combo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  h4 {
+    margin-bottom: 0;
+  }
 }
