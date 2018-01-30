@@ -48,6 +48,16 @@ main {
   }
 }
 
+#home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .card {
+    flex-basis: 500px;
+    max-width: 20rem;
+  }
+}
+
 .accent-color {
   color: tomato;
 }
@@ -105,10 +115,35 @@ main {
       font-size: 1.2em;
     }
   }
+
+  .tagline {
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+
+  #home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card {
+      flex-basis: 55rem;
+      max-width: 30rem;
+    }
+    .team {
+
+    }
+  }
 }
 
 @media screen and (min-width: 800px) {
   .contact-one {
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  .tagline {
     h2 {
       font-size: 2em;
     }

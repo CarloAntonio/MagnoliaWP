@@ -86,6 +86,14 @@ main {
   .mission h2 {
     display: inline-block; }
 
+#home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #home .card {
+    flex-basis: 500px;
+    max-width: 20rem; }
+
 .accent-color {
   color: tomato; }
 
@@ -125,9 +133,23 @@ main {
   .contact-one h2 {
     font-size: 1.5em; }
   .contact-one p {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  .tagline h2 {
+    font-size: 1.5em; }
+
+  #home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    #home .card {
+      flex-basis: 55rem;
+      max-width: 30rem; } }
 @media screen and (min-width: 800px) {
   .contact-one h2 {
+    font-size: 2em; }
+
+  .tagline h2 {
     font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */
