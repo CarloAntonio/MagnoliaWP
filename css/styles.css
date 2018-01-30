@@ -144,7 +144,9 @@ main {
     flex-wrap: wrap; }
     #home .card {
       flex-basis: 55rem;
-      max-width: 30rem; } }
+      max-width: 30rem; }
+    #home .card:first-child {
+      max-width: 100%; } }
 @media screen and (min-width: 800px) {
   .contact-one h2 {
     font-size: 2em; }

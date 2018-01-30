@@ -130,6 +130,9 @@ main {
       flex-basis: 55rem;
       max-width: 30rem;
     }
+    .card:first-child {
+      max-width: 100%;
+    }
     .team {
 
     }
