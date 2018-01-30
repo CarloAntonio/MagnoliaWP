@@ -73,9 +73,6 @@ main {
     font-size: 1em; }
   .contact-one p {
     font-size: .9em; }
-  .contact-one button {
-    width: 30%;
-    margin: 0 auto; }
 
 .tagline {
   text-align: center;
@@ -123,5 +120,14 @@ main {
 .body-footer {
   background-color: #327875;
   color: white; }
+
+@media screen and (min-width: 450px) {
+  .contact-one h2 {
+    font-size: 1.5em; }
+  .contact-one p {
+    font-size: 1.2em; } }
+@media screen and (min-width: 800px) {
+  .contact-one h2 {
+    font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */
