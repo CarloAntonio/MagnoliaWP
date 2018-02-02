@@ -1,16 +1,5 @@
 
- // main Layout
-.main-container {
-  max-width: 1020px;
-  margin: 0 auto;
-}
 // home -----------/
-
-.mission {
-  h2 {
-    display: inline-block;
-  }
-}
 
 .accent-color {
   color: tomato;
@@ -18,35 +7,16 @@
 
 .img-title-combo {
   display: flex;
+  justify-content: center;
   align-items: center;
+  h4 {
+    margin-bottom: 0;
+  }
 }
 
 .flower-size {
   width: 2rem;
   height: 2rem;
-}
-
-.profile-sz {
-  width: 4em;
-  height: 4em;
-}
-
-// team -------------/
-
-.team {
-  margin: 20px 0;
-  padding: 20px 0 40px;
-  border-bottom: 2px solid $color-primary;
-}
-
-.img-title-combo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  h4 {
-    margin-bottom: 0;
-  }
 }
 
 #contact .contact-one {

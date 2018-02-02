@@ -1,0 +1,42 @@
+
+
+// team -------------/
+
+.team {
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid $color-primary;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+  h5 {
+    padding-top: 10px;
+  }
+}
+
+.profile-sz {
+  width: 12em;
+  height: 12em;
+}
+
+@media screen and (min-width: 500px) {
+  .team-members {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .team-members {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
