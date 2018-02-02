@@ -1,0 +1,30 @@
+
+
+#home {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px 0;
+  padding-bottom: 20px 0;
+  border-bottom: 2px solid $color-primary;
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #home {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+      flex-basis: 100%;
+      max-width: 48%;
+    }
+    .card:first-child, .card:nth-of-type(2) {
+      max-width: 100%;
+    }
+    .card:last-child {
+      margin-left: 2%;
+    }
+  }
+}

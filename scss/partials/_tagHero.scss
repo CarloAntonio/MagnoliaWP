@@ -2,7 +2,10 @@
 // tagline ------------/
 .tagline {
   text-align: center;
-  margin: 40px 0;
+  padding: 40px 0;
+  margin: 0 20px;
+  padding-bottom: 20px 0;
+  border-bottom: 2px solid $color-primary;
   h2 {
     font-size: 1em;
     margin-bottom: 20px;
