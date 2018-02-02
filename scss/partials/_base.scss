@@ -1,32 +1,8 @@
 
- // Main Layout
+ // main Layout
 .main-container {
-  // display: grid;
-  // grid-template-columns: minmax(400px, auto);
-  // grid-auto-rows: minmax(50px, auto);
-}
-
-main {
-  max-width: 1200px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// call to action -------------- /
-.contact-one {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 2px solid $color-primary;
-  border-top: 2px solid $color-primary;
-  h2 {
-    font-size: 1em;
-  }
-  p {
-    font-size: .9em;
-  }
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 // tagline ------------/

@@ -21,58 +21,80 @@ header {
     background-color: white;
     text-decoration: none; }
 
+@media screen and (min-width: 450px) {
+  .main-nav {
+    flex-direction: row;
+    justify-content: center; }
+    .main-nav a {
+      padding: 10px 10px; }
+    .main-nav li:last-of-type {
+      margin-right: 20px; } }
+@media screen and (min-width: 600px) {
+  .main-nav {
+    justify-content: flex-end; } }
+.opening {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #327875; }
+
 .brand-div {
-  margin: 10px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 20px; }
+  padding: 20px 0; }
   .brand-div img {
     width: 50px;
     height: 50px; }
   .brand-div h1 {
     font-size: 1em; }
 
-@media screen and (min-width: 450px) {
-  .main-nav {
-    flex-direction: row;
-    justify-content: flex-end; }
-    .main-nav a {
-      padding: 10px 10px; }
-    .main-nav li:last-of-type {
-      margin-right: 20px; }
+.contUs {
+  padding: 20px 0; }
+  .contUs h2 {
+    font-size: 1em; }
+  .contUs p {
+    font-size: .9em; }
+  .contUs p:last-of-type {
+    margin-bottom: 0; }
 
+@media screen and (min-width: 450px) {
   .brand-div {
     flex-direction: column; }
     .brand-div img {
       width: 100px;
       height: 100px; }
     .brand-div h1 {
-      font-size: 1.5em; } }
-@media screen and (min-width: 600px) {
-  .brand-div img {
-    width: 150px;
-    height: 150px; } }
-@media screen and (min-width: 800px) {
-  .brand-div h1 {
-    font-size: 2em; } }
-main {
-  max-width: 1200px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto; }
+      font-size: 1.5em; }
 
-.contact-one {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 2px solid #327875;
-  border-top: 2px solid #327875; }
-  .contact-one h2 {
-    font-size: 1em; }
-  .contact-one p {
-    font-size: .9em; }
+  .contUs h2 {
+    font-size: 1.5em; }
+  .contUs p {
+    font-size: 1em; } }
+@media screen and (min-width: 700px) {
+  .opening {
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .brand-div img {
+    width: 140px;
+    height: 140px; }
+
+  .contUs p:first-of-type {
+    padding-top: 1em; }
+  .contUs p {
+    font-size: 1.1em; } }
+@media screen and (min-width: 900px) {
+  .brand-div h1 {
+    font-size: 2em; }
+
+  .contUs h2 {
+    font-size: 2em; } }
+.main-container {
+  max-width: 1020px;
+  margin: 0 auto; }
 
 .tagline {
   text-align: center;
