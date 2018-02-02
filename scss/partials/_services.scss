@@ -1,0 +1,44 @@
+
+
+#services {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid $color-primary;
+  ul {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+}
+
+.offerings,
+.accommodate,
+.why {
+  border-radius: 5px;
+  background-color: $color-primary;
+  border: 1px solid #000;
+  .img-title-combo {
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+    background-color: #f7f7f7;
+  }
+  ul {
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #services {
+    grid-template-columns: 1fr 1fr;
+    ul {
+      padding-right: 0;
+    }
+  }
+
+  .why {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
