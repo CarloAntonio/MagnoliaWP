@@ -5,20 +5,11 @@
   margin: 0 auto;
 }
 
-// tagline ------------/
-.tagline {
-  text-align: center;
-  margin: 40px 0;
-  h2 {
-    font-size: 1em;
-    margin-bottom: 20px;
-  }
-}
+
 
 // home -----------/
 
 .mission {
-  background-color: tomato;
   h2 {
     display: inline-block;
   }
@@ -92,12 +83,6 @@
     }
   }
 
-  .tagline {
-    h2 {
-      font-size: 1.5em;
-    }
-  }
-
   #home {
     display: flex;
     flex-direction: row;
@@ -117,12 +102,6 @@
 
 @media screen and (min-width: 800px) {
   .contact-one {
-    h2 {
-      font-size: 2em;
-    }
-  }
-
-  .tagline {
     h2 {
       font-size: 2em;
     }

@@ -92,21 +92,29 @@ header {
 
   .contUs h2 {
     font-size: 2em; } }
-.main-container {
-  max-width: 1020px;
-  margin: 0 auto; }
-
 .tagline {
   text-align: center;
   margin: 40px 0; }
   .tagline h2 {
     font-size: 1em;
     margin-bottom: 20px; }
+  .tagline img {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px; }
 
-.mission {
-  background-color: tomato; }
-  .mission h2 {
-    display: inline-block; }
+@media screen and (min-width: 450px) {
+  .tagline h2 {
+    font-size: 1.5em; } }
+@media screen and (min-width: 900px) {
+  .tagline h2 {
+    font-size: 2em; } }
+.main-container {
+  max-width: 1020px;
+  margin: 0 auto; }
+
+.mission h2 {
+  display: inline-block; }
 
 #home {
   display: flex;
@@ -157,9 +165,6 @@ header {
   .contact-one p {
     font-size: 1.2em; }
 
-  .tagline h2 {
-    font-size: 1.5em; }
-
   #home {
     display: flex;
     flex-direction: row;
@@ -171,9 +176,6 @@ header {
       max-width: 100%; } }
 @media screen and (min-width: 800px) {
   .contact-one h2 {
-    font-size: 2em; }
-
-  .tagline h2 {
     font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */

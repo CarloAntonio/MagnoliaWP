@@ -1,0 +1,31 @@
+
+// tagline ------------/
+.tagline {
+  text-align: center;
+  margin: 40px 0;
+  h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .tagline {
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .tagline {
+    h2 {
+      font-size: 2em;
+    }
+  }
+}
