@@ -1,0 +1,28 @@
+
+#facility {
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid $color-primary;
+
+}
+
+.facility-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  img {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .facility-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .facility-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

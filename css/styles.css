@@ -1,3 +1,44 @@
+.accent-color {
+  color: tomato; }
+
+.img-title-combo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-title-combo h4 {
+    margin-bottom: 0; }
+
+.flower-size {
+  width: 2rem;
+  height: 2rem; }
+
+.contUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #327875; }
+
+#contact .contact-one {
+  border-bottom: none; }
+
+.body-footer {
+  background-color: #327875;
+  color: white; }
+
+@media screen and (min-width: 450px) {
+  .contact-one h2 {
+    font-size: 1.5em; }
+  .contact-one p {
+    font-size: 1.2em; } }
+@media screen and (min-width: 800px) {
+  .contact-one h2 {
+    font-size: 2em; } }
+.main-container {
+  max-width: 1020px;
+  margin: 0 auto; }
+
 header {
   margin: 0; }
 
@@ -198,43 +239,23 @@ header {
   .why {
     grid-column-start: 1;
     grid-column-end: 3; } }
-.main-container {
-  max-width: 1020px;
-  margin: 0 auto; }
+#facility {
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #327875; }
 
-.accent-color {
-  color: tomato; }
+.facility-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+  .facility-gallery img {
+    padding-top: 20px; }
 
-.img-title-combo {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .img-title-combo h4 {
-    margin-bottom: 0; }
-
-.flower-size {
-  width: 2rem;
-  height: 2rem; }
-
-.contUs {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-#contact .contact-one {
-  border-bottom: none; }
-
-.body-footer {
-  background-color: #327875;
-  color: white; }
-
-@media screen and (min-width: 450px) {
-  .contact-one h2 {
-    font-size: 1.5em; }
-  .contact-one p {
-    font-size: 1.2em; } }
+@media screen and (min-width: 600px) {
+  .facility-gallery {
+    grid-template-columns: 1fr 1fr; } }
 @media screen and (min-width: 800px) {
-  .contact-one h2 {
-    font-size: 2em; } }
+  .facility-gallery {
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 /*# sourceMappingURL=styles.css.map */
