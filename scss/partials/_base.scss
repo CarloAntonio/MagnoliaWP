@@ -19,6 +19,12 @@
   height: 2rem;
 }
 
+.contUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #contact .contact-one {
   border-bottom: none;
 }
