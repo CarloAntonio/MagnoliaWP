@@ -257,5 +257,24 @@ header {
 @media screen and (min-width: 800px) {
   .facility-gallery {
     grid-template-columns: 1fr 1fr 1fr; } }
+#testimonials {
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #327875; }
+  #testimonials p {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0; }
+
+.testimonials-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+  .testimonials-gallery img {
+    padding-top: 20px; }
+
+@media screen and (min-width: 700px) {
+  .testimonials-gallery {
+    grid-template-columns: 1fr 1fr; } }
 
 /*# sourceMappingURL=styles.css.map */
