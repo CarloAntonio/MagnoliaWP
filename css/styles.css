@@ -282,7 +282,9 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  padding-top: 20px; }
+  padding-top: 10px; }
+  .facility-gallery img {
+    border-radius: 5px; }
 
 @media screen and (min-width: 650px) {
   .facility-gallery {
@@ -324,5 +326,23 @@ header {
   font-family: 'Francois One', sans-serif;
   letter-spacing: 1px;
   font-size: 1.2em; }
+
+.cute-rotate {
+  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.31, 1.38); }
+
+.cute-rotate:hover {
+  transform: rotate(-20deg); }
+
+.magnify {
+  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.31, 1.38); }
+
+.magnify:hover {
+  transform: scale(1.2); }
+
+.full-rotate {
+  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.31, 1.38); }
+
+.full-rotate:hover {
+  transform: rotate(360deg); }
 
 /*# sourceMappingURL=styles.css.map */
