@@ -19,13 +19,8 @@
   margin: 0 20px;
   padding: 20px 0;
   border-bottom: 2px solid #327875; }
-
-.contUs-three {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 20px;
-  padding: 20px 0; }
+  .contUs-two h4 {
+    font-family: 'Francois One', sans-serif; }
 
 @media screen and (min-width: 450px) {
   .contUs-two p,
@@ -166,6 +161,9 @@ header {
   #home .card {
     width: 100%; }
 
+.card-header {
+  font-family: 'Francois One', sans-serif; }
+
 @media screen and (min-width: 700px) {
   #home {
     flex-direction: row;
@@ -182,6 +180,8 @@ header {
   margin: 0 20px;
   padding: 20px 0;
   border-bottom: 2px solid #327875; }
+  .team h3 {
+    font-family: 'Francois One', sans-serif; }
 
 .team-members {
   display: grid;
@@ -217,9 +217,6 @@ header {
     padding-top: 20px;
     padding-right: 20px; }
 
-.card-header {
-  font-family: 'Francois One', sans-serif; }
-
 .offerings,
 .accommodate,
 .why {
@@ -236,6 +233,10 @@ header {
   .accommodate ul,
   .why ul {
     color: #fff; }
+  .offerings h4,
+  .accommodate h4,
+  .why h4 {
+    font-family: 'Francois One', sans-serif; }
 
 @media screen and (min-width: 500px) {
   .card-header {
@@ -256,6 +257,8 @@ header {
   margin: 0 20px;
   padding: 20px 0;
   border-bottom: 2px solid #327875; }
+  #facility h3 {
+    font-family: 'Francois One', sans-serif; }
 
 .facility-gallery {
   display: grid;
@@ -274,6 +277,8 @@ header {
   margin: 0 20px;
   padding: 20px 0;
   border-bottom: 2px solid #327875; }
+  #testimonials h3 {
+    font-family: 'Francois One', sans-serif; }
   #testimonials p {
     text-align: center;
     margin-bottom: 0;
@@ -289,8 +294,21 @@ header {
 @media screen and (min-width: 700px) {
   .testimonials-gallery {
     grid-template-columns: 1fr 1fr; } }
+#contact h4 {
+  font-family: 'Francois One', sans-serif; }
+
+.contUs-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  padding: 20px 0; }
+
 .body-footer {
   background-color: #327875;
-  color: white; }
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=styles.css.map */
