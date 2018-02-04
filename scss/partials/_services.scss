@@ -13,6 +13,10 @@
   }
 }
 
+.card-header {
+  font-family: 'Francois One', sans-serif;
+}
+
 .offerings,
 .accommodate,
 .why {
@@ -29,12 +33,22 @@
   }
 }
 
+@media screen and (min-width: 500px) {
+  .card-header {
+    font-size: 1.2em;
+  }
+}
+
 @media screen and (min-width: 700px) {
   #services {
     grid-template-columns: 1fr 1fr;
     ul {
       padding-right: 0;
     }
+  }
+
+  .card-header {
+    font-size: 1.5em;
   }
 
   .why {

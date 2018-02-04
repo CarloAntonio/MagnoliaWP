@@ -92,12 +92,13 @@ header {
     height: 50px; }
   .brand-div h1 {
     font-size: 1em;
-    font-family: 'Candal', sans-serif; }
+    font-family: 'Francois One', sans-serif; }
 
 .contUs-one {
   padding: 20px 0; }
   .contUs-one h2 {
-    font-size: 1em; }
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif; }
   .contUs-one p {
     font-size: .9em; }
   .contUs-one p:last-of-type {
@@ -143,7 +144,8 @@ header {
   border-bottom: 2px solid #327875; }
   .tagline h2 {
     font-size: 1em;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-family: 'Francois One', sans-serif; }
   .tagline img {
     width: 100%;
     max-width: 800px;
@@ -215,6 +217,9 @@ header {
     padding-top: 20px;
     padding-right: 20px; }
 
+.card-header {
+  font-family: 'Francois One', sans-serif; }
+
 .offerings,
 .accommodate,
 .why {
@@ -232,11 +237,17 @@ header {
   .why ul {
     color: #fff; }
 
+@media screen and (min-width: 500px) {
+  .card-header {
+    font-size: 1.2em; } }
 @media screen and (min-width: 700px) {
   #services {
     grid-template-columns: 1fr 1fr; }
     #services ul {
       padding-right: 0; }
+
+  .card-header {
+    font-size: 1.5em; }
 
   .why {
     grid-column-start: 1;
