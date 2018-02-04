@@ -13,6 +13,20 @@
 
 .card-header {
   font-family: 'Francois One', sans-serif;
+  color: $color-primary;
+}
+
+.card-text {
+  a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: $color-accent;
+    font-family: 'Francois One', sans-serif;
+  }
+  a:hover {
+    background-color: $color-accent;
+    color: #fff;
+  }
 }
 
 @media screen and (min-width: 700px) {
