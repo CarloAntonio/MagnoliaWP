@@ -180,8 +180,11 @@ header {
   margin: 0 20px;
   padding: 20px 0;
   border-bottom: 2px solid #327875; }
-  .team h3 {
+  .team h2 {
+    margin: 0 1rem 1rem;
     font-family: 'Francois One', sans-serif; }
+  .team img {
+    margin-bottom: 1rem; }
 
 .team-members {
   display: grid;
@@ -192,13 +195,18 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  background-color: #327875;
+  border-radius: 5px;
+  color: #fff; }
   .custom-card h5 {
     padding-top: 10px; }
 
 .profile-sz {
   width: 12em;
-  height: 12em; }
+  height: 12em;
+  border-radius: 50%;
+  border: 5px solid #fff; }
 
 @media screen and (min-width: 500px) {
   .team-members {
