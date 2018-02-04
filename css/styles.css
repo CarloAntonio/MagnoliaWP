@@ -263,16 +263,12 @@ header {
 .facility-gallery {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px; }
-  .facility-gallery img {
-    padding-top: 20px; }
+  grid-gap: 20px;
+  padding-top: 20px; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .facility-gallery {
     grid-template-columns: 1fr 1fr; } }
-@media screen and (min-width: 800px) {
-  .facility-gallery {
-    grid-template-columns: 1fr 1fr 1fr; } }
 #testimonials {
   margin: 0 20px;
   padding: 20px 0;

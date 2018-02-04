@@ -11,20 +11,12 @@
 .facility-gallery {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
-  img {
-    padding-top: 20px;
-  }
+  grid-gap: 20px;
+  padding-top: 20px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .facility-gallery {
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .facility-gallery {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
