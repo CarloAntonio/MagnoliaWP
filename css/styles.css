@@ -44,31 +44,36 @@ header {
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Candal', sans-serif;
+  letter-spacing: 1px; }
   .main-nav li {
     list-style-type: none;
-    display: inline-block;
-    font-size: 1em; }
+    display: inline-block; }
   .main-nav a {
     display: block;
     color: white;
-    padding: 10px 20px; }
+    padding: 15px 20px; }
   .main-nav a:hover {
     color: #327875;
     background-color: white;
     text-decoration: none; }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 550px) {
   .main-nav {
     flex-direction: row;
-    justify-content: center; }
+    justify-content: space-around; }
     .main-nav a {
-      padding: 10px 10px; }
-    .main-nav li:last-of-type {
-      margin-right: 20px; } }
-@media screen and (min-width: 600px) {
+      padding: 15px 10px; } }
+@media screen and (min-width: 700px) {
   .main-nav {
-    justify-content: flex-end; } }
+    justify-content: flex-end; }
+    .main-nav a {
+      font-size: 1.2em;
+      padding: 20px 10px; }
+
+  li:last-of-type {
+    margin-right: 20px; } }
 .opening {
   display: flex;
   flex-direction: column;
@@ -86,7 +91,8 @@ header {
     width: 50px;
     height: 50px; }
   .brand-div h1 {
-    font-size: 1em; }
+    font-size: 1em;
+    font-family: 'Candal', sans-serif; }
 
 .contUs-one {
   padding: 20px 0; }
